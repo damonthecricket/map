@@ -35,10 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EC4044E2315471F006F9621 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4EF175AB23111F180019516A /* Assets.xcassets */,
+			);
+			name = SupportingFiles;
+			path = Map/SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4EC4044F2315471F006F9621 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EC404502315471F006F9621 /* Storyboards */,
+			);
+			name = Resources;
+			path = Map/Resources;
+			sourceTree = "<group>";
+		};
+		4EC404502315471F006F9621 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4EF175AD23111F180019516A /* LaunchScreen.storyboard */,
+				4EF175A823111F170019516A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		4EF1759823111F170019516A = {
 			isa = PBXGroup;
 			children = (
 				4EF175A323111F170019516A /* Map */,
+				4EC4044F2315471F006F9621 /* Resources */,
+				4EC4044E2315471F006F9621 /* SupportingFiles */,
 				4EF175A223111F170019516A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,9 +85,6 @@
 			children = (
 				4EF175A423111F170019516A /* AppDelegate.swift */,
 				4EF175A623111F170019516A /* MainViewController.swift */,
-				4EF175A823111F170019516A /* Main.storyboard */,
-				4EF175AB23111F180019516A /* Assets.xcassets */,
-				4EF175AD23111F180019516A /* LaunchScreen.storyboard */,
 				4EF175B023111F180019516A /* Info.plist */,
 			);
 			path = Map;
